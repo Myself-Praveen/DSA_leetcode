@@ -18,20 +18,13 @@ public:
             cnt++;
         }
         ListNode* p=head;
-        if(cnt%2!=0){
+       
             int a=cnt/2;
             for(int i=1;i<=a;i++){
                 p=p->next;
             }
             return p;
-        }
-        else{
-            int a=cnt/2;
-            for(int i=1;i<=a;i++){
-                p=p->next;
-            }
-            return p;
-
-        }
+        
+        
     }
 };
