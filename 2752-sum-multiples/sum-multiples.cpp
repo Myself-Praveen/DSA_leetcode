@@ -6,10 +6,10 @@ public:
             if(i%3==0) sum+=i;
             else if(i%5==0) sum+=i;
             else if(i%7==0) sum+=i;
-            // else if(i%15==0) sum-=i;
-            // else if(i%35==0) sum-=i;
-            // else if(i%21==0) sum-=i;
-            // else if(i%105==0) sum+=i;
+            else if(i%15==0) sum-=i;
+            else if(i%35==0) sum-=i;
+            else if(i%21==0) sum-=i;
+            else if(i%105==0) sum+=i;
         }
         return sum;
     }
