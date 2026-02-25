@@ -15,7 +15,7 @@ public:
             int a = fun(arr[i]);
             mp[a].push_back(arr[i]);
         }
-        for (auto x : mp) {
+        for (auto &x : mp) {
             int b = x.second.size();
             sort(x.second.begin(), x.second.end());
             for (int i = 0; i < b; i++) {
