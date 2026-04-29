@@ -4,7 +4,7 @@ public:
         int i=0;
         int n=s.size();
         int j=n-1;
-        while(i<j){
+        while(i<=j){
             while(i<j && !(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u' ||
                               s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O'||s[i]=='U')){
                 i++;
